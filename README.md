@@ -41,7 +41,7 @@ More: [Create Your First Substrate Chain](https://substrate.dev/docs/en/tutorial
 
 ### Installing
 
-For chip tests you need:
+Before running the tests, you need to:
 
 Clone this repo
 
@@ -52,7 +52,7 @@ git clone https://github.com/halva-suite/halva-test-example.git
 Install halva-cli
 
 ```bash
-npm install halva-cli
+npm install -g halva-cli
 ```
 
 If necessary, you can install spec-builder
@@ -103,7 +103,8 @@ Run node:
 Use cli to start tests:
 
 ```bash
-halva-cli test <path> [configureFile] [bail]
+cd substrate/
+halva-cli test -p ./tests/
 ```
 
 If you need help, use 
