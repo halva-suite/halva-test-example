@@ -52,7 +52,7 @@ git clone https://github.com/halva-suite/halva-test-example.git
 Install halva-cli
 
 ```bash
-npm install -g halva-cli
+npm install -g @halva-suite/halva-cli
 ```
 
 If necessary, you can install spec-builder
