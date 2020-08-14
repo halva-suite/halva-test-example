@@ -83,8 +83,6 @@ module.exports = {
 Build node:
 
 ```bash
-cd ./substrate
-
 ./scripts/init.sh
 
 make build
@@ -140,4 +138,3 @@ describe('Halva test', () => {
 - [Mocha](https://mochajs.org/) - Test framework
 - [PolkadotJs](https://polkadot.js.org/) - Api for substrate
 - [NodeJs](https://nodejs.org/en/) - Server Environment
-
