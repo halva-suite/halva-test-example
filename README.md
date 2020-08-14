@@ -47,6 +47,8 @@ Clone this repo
 
 ```bash
 git clone https://github.com/halva-suite/halva-test-example.git
+
+cd halva-test-example/
 ```
 
 Install halva-cli
@@ -101,8 +103,7 @@ Run node:
 Use cli to start tests:
 
 ```bash
-cd substrate/
-halva-cli test -p ./tests/
+halva-cli test
 ```
 
 If you need help, use 
@@ -120,7 +121,7 @@ describe('Halva test', () => {
 
   describe('test global', () => {
     it('Get global var', async () => {
-        console.log(halva_accounts[0].address); // halva_account global var
+        console.log(halva.accounts[0].address); // halva.account global var
     });
   });
 });
@@ -128,8 +129,8 @@ describe('Halva test', () => {
 
 ##### Variables
 
-* halva_accounts - 10 Key pairs for tests
-* halva_polkadot - ApiPromise object of polkadot
+* halva.accounts - 10 Key pairs for tests
+* halva.polkadot - ApiPromise object of polkadot
 
 
 
