@@ -92,7 +92,7 @@ make build
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
-All tests are in the ```/substrate/tests``` directory
+All tests are in the ```test``` folder
 
 Run node:
 
